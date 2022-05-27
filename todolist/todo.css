@@ -1,0 +1,39 @@
+ul li.checked {
+    background: blue!important;
+    color: #fff;
+    text-decoration: line-through;
+}
+ul li:nth-child(odd) {
+    background: #c0afaf;
+  }
+
+ul li:hover {
+    background: red;
+}
+
+
+.close {
+        position: absolute;
+        right: 5%;
+        top: 0;
+        
+
+}
+
+.modif {
+    position: absolute;
+    right: 10%;
+    top: 0;
+}
+/*style zone drag*/
+
+#myautre{
+    border: solid 5px blue
+}
+/* Style the list items */
+ul li {
+    position: relative;
+  
+    background: #eee;
+  
+}

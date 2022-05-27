@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TODOLIST</title>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./todo.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+
+    </head>
+</html>	
+<body>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+
+      <ul id="maListe" draggable="true" ondragstart="drag(event)" >
+        <li id="drag" class="checked" draggable="true" ondragstart="drag(event)">test1</li>
+        <li id="drag" draggable="true" ondragstart="drag(event)" >barre  </li>
+        <li >drre</li>
+       
+      </ul>
+      <ul id="myautre" ondrop="drop(event)" ondragover="allowDrop(event)">aTTENTE zone drop</ul>
+<div  class="d-flex flex-row"id="troistableaux" style="display: flex; gap: 40px;  border: solid;margin:5vw">
+      <table id="dataTable" class="table table-image table-striped table-hover  table-bordered">
+        <thead class="table-responsive-md">
+          <tr>
+            <form id ="inscriptions">
+            
+          <tr>
+            <th class="align-middle" id="Fait">Fait</th>
+            <th class="align-middle" >Action1<input type="button" id="go"></th> 
+          </tr>
+          </form>
+          
+        </thead>
+        <tbody id="dataTablebodyFait">
+
+        </tbody> 
+      </table>
+
+
+      <table id="dataTable" class="table table-image table-striped table-hover  table-bordered">
+        <thead class="table-responsive-md">
+          
+
+            
+          <tr class="d-flex align-items-start">
+            <th style="width: 50%;" id="afaire">A faire</th>
+            <th style="width: 50%" >Action1<input type="button" id="go"></th> 
+          </tr>
+          
+        </thead>
+        <tbody id="dataTablebody">
+
+        </tbody> 
+      </form> 
+      </table>
+
+      <table id="dataTable" class="table table-image table-striped table-hover">
+        <thead class="table-responsive-md">
+
+          <tr>
+            <th class="align-middle d-flex align-items-start" id="encours">En cours</th>
+            <th class="align-middle d-flex align-items-start" >Action1<input type="button" id="go"></th> 
+          </tr>
+          </form>
+          
+        </thead> 
+      </table>
+   
+    </div>
+
+
+   <script type="text/javascript" src="script.js">
+
+    </script>
+
+</body>
